@@ -6,7 +6,6 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #e5e5e5;
   color: var(--title-tex-color);
 }
 /* none */
@@ -62,6 +61,10 @@ body {
 
 .contacts-link:hover,
 .contacts-link:focus {
+  color: var(--accent-color);
+}
+
+.studio {
   color: var(--accent-color);
 }
 
@@ -127,9 +130,6 @@ body {
 }
 
 /* team */
-.team {
-  background-color: #f5f4fa;
-}
 
 .subtitle-team {
   font-weight: 500;
@@ -150,6 +150,10 @@ body {
 /* footer */
 .footer {
   background-color: #2f303a;
+}
+
+.address-footer {
+  font-style: normal;
 }
 
 .logo-footer {
@@ -191,6 +195,10 @@ body {
 .botton:focus {
   background-color: var(--accent-color);
   color: #ffffff;
+}
+
+.portfolio {
+  color: var(--accent-color);
 }
 
 /* portfolio img */
